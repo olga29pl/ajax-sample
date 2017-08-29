@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form with AJAX</title>
+  </head>
+  <body>
+    <form>
+      <label>Name:
+        <input type="text" id="name" placeholder="Your name"
+          required>
+      </label>
+      <br>
+      <label>Comment
+        <textarea id="comment" placeholder="Your comment"></textarea>
+      </label>
+      <br>
+      <input type="submit">
+    </form>
+    <h2 id="thanks" style="display:none;">Thank you!</h2>
+    <h2 id="incorrect" style="display:none;">Form incorrect!</h2>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
